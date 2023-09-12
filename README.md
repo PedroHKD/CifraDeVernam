@@ -5,4 +5,4 @@ O script deve ser executado da seguinte forma:
 
 2- Abra o terminal execute o seguinte comando: node main.js nomeDoArquivo chave criptografar ou decriptografar
 
-#Exemplo: node main.js aula7.txt questoes criptografar
+##**Exemplo: node main.js aula7.txt questoes criptografar**
