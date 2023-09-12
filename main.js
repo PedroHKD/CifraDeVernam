@@ -39,7 +39,11 @@ function decriptografar(arquivoTxt, chave){
 const [arquivoTxt, chave, opcao] = process.argv.slice(2) //Pegar os nomes apartir do terminal
 
 if (!arquivoTxt || !chave || !opcao) {
-    console.log('O script deve ser executado da seguinte forma:\nVa ate a pasta onde o script e crie ou cole o arquivo.txt que voce deseja criptografar/decriptogravar(Vernam)\nApos isso abra o terminal execute o seguinte comando: node main.js nomeDoArquivo chave criptografar ou decriptografar\nExemplo:\n"node main.js aula7.txt questoes criptografar"')
+    console.log('O script deve ser executado da seguinte forma:\n\
+    Va ate a pasta onde o script e crie ou cole o arquivo.txt que voce deseja criptografar/decriptogravar(Vernam)\n\
+    Apos isso abra o terminal execute o seguinte comando: node main.js nomeDoArquivo chave criptografar ou decriptografar\n\
+    Exemplo:\n\
+    "node main.js aula7.txt questoes criptografar"');
     process.exit(1)
 }
 
