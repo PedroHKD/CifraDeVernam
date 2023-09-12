@@ -33,9 +33,6 @@ function decriptografar(arquivoTxt, chave){
     fs.writeFileSync(arquivoTxtFinal, textoD, 'utf-8')
 }
 
-//const arquivoTxt = 'arquivo_inicial.txt_criptografado.txt' //coloque aqui o nome do arquivo txt para ser criptografado ou descriptografado
-//const chave = 'chave123' //coloque aqui a chave de criptografia
-//const opcao = 'decriptografar' //opcao para criptografar ou decriptografar o arquivo txt
 const [arquivoTxt, chave, opcao] = process.argv.slice(2) //Pegar os nomes apartir do terminal
 
 if (!arquivoTxt || !chave || !opcao) {
