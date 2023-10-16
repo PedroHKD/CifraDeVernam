@@ -1,7 +1,7 @@
 //modulo de arquivos do nodejs
 const fs = require('fs');
 
-//funcao para criptografar e decriptografar
+//funcao para criptografar
 function criptografar(arquivoTxt, chave){
     const textoI = fs.readFileSync(arquivoTxt, 'utf8')
     let textoC = ''
