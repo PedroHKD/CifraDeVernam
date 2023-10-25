@@ -7,4 +7,4 @@ O script deve ser executado da seguinte forma:
 
 **Exemplo: node main.js aula7.txt questoes criptografar**
 
-**OBERSERVACAO E NECESSARIO TER O NODE.JS INSTALADO**
+  **OBERSERVAÇÃO E NECESSÁRIO TER O NODE.JS INSTALADO**
